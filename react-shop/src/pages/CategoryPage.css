@@ -1,0 +1,37 @@
+@import "../styles/variable.css";
+
+.category-flex {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 1em;
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 24px;
+}
+.right-part button {
+  border-radius: 30px;
+  color: var(--text-color);
+  margin-left: 12px;
+  border: none;
+  padding: 10px;
+  width: 65px;
+  cursor: pointer;
+}
+.right-part .active-btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(170, 10, 10);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .category-flex {
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

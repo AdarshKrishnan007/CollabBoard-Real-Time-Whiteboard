@@ -1,0 +1,28 @@
+.top-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+.imageCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: 12px;
+  width: 100%;
+  margin-left: 10px;
+  &:hover {
+    position: relative;
+    bottom: 10px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  }
+}

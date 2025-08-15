@@ -1,0 +1,45 @@
+collab-board/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── assets/              # All images, icons, logos
+│   ├── components/          # Reusable UI components
+│   │   ├── Sidebar.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── StickyNote.jsx
+│   │   ├── BoardItem.jsx
+│   │   └── Button.jsx
+│   │
+│   ├── pages/               # Different route pages
+│   │   ├── Dashboard.jsx
+│   │   ├── Boards.jsx
+│   │   ├── Templates.jsx
+│   │   ├── Team.jsx
+│   │   ├── Settings.jsx
+│   │   └── SingleBoard.jsx
+│   │
+│   ├── layout/              # Page layout wrapper
+│   │   └── MainLayout.jsx
+│   │
+│   ├── routes/              # Route definitions
+│   │   └── AppRoutes.jsx
+│   │
+│   ├── context/             # Context API (auth, notes, etc.)
+│   │   └── BoardContext.jsx
+│   │
+│   ├── hooks/               # Custom hooks
+│   │   └── useStickyNotes.js
+│   │
+│   ├── utils/               # Helper functions
+│   │   └── helpers.js
+│   │
+│   ├── App.jsx              # Main component
+│   ├── main.jsx             # Vite entry point
+│   └── index.css            # Tailwind imports
+│
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+└── vite.config.js

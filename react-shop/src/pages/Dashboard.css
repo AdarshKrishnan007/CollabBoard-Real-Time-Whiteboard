@@ -1,0 +1,82 @@
+.Dashboardstyle {
+  padding: 20px;
+  background: linear-gradient(135deg, #f7f9fc, #eef3f9);
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* HEADER */
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.header h4 {
+  color: #666;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.header-flex > div {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.header-flex > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* RECENT BOARDS */
+.middle-section h1 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.Card-Image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.Card-Image > div {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.Card-Image > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* YOUR TEAMS */
+.bottom-section h1 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
